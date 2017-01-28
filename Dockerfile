@@ -2,7 +2,7 @@ FROM ruby:2.4
 
 MAINTAINER thinkbot@outlook.de
 
-ENV VERSION=0.8.1
+ENV VERSION=0.8.2
 
 RUN gem install adiwg-mdtranslator --version ${VERSION} --no-format-exec
 
